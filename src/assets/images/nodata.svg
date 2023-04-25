@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="241px" height="138px" viewBox="0 0 241 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 5</title>
+    <defs>
+        <path d="M144,2.27373675e-13 L144,62 L143.707555,62.0009099 C143.901119,62.1652953 144,62.3317656 144,62.5 C144,65.5375661 111.764502,68 72,68 C32.235498,68 0,65.5375661 0,62.5 C0,62.3317656 0.0988809596,62.1652953 0.292445496,62.0009099 L0,62 L0,2.27373675e-13 L144,2.27373675e-13 Z" id="path-1"></path>
+        <filter x="-85.7%" y="-44.1%" width="271.4%" height="188.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-85.7%" y="-44.1%" width="271.4%" height="188.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <ellipse id="path-5" cx="72" cy="5.5" rx="72" ry="5.5"></ellipse>
+        <filter x="-11.3%" y="-115.4%" width="122.6%" height="330.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="木林森PDA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="物料解绑" transform="translate(-240.000000, -531.000000)">
+            <g id="编组-5" transform="translate(240.000000, 531.000000)">
+                <g id="编组-4" transform="translate(56.494487, 59.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="形状结合" fill="#BFD3E5" xlink:href="#path-1"></use>
+                    <polygon id="路径-10" fill="#7CA7CD" filter="url(#filter-3)" mask="url(#mask-2)" points="144.077295 5 118.505513 73 153.505513 67.0869565"></polygon>
+                    <polygon id="路径-10备份" fill="#9BBEDE" filter="url(#filter-4)" mask="url(#mask-2)" transform="translate(11.005513, 39.000000) scale(-1, 1) translate(-11.005513, -39.000000) " points="19.0772952 5 -6.49448691 73 28.5055131 67.0869565"></polygon>
+                </g>
+                <g id="编组-9" transform="translate(56.494487, 54.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="椭圆形" fill="#345397" xlink:href="#path-5"></use>
+                    <ellipse id="椭圆形" fill="#0467BF" mask="url(#mask-6)" cx="72.5" cy="5.5" rx="63.5" ry="4.5"></ellipse>
+                    <ellipse id="椭圆形" fill="#0A7FE7" filter="url(#filter-7)" mask="url(#mask-6)" cx="60.5" cy="0.5" rx="66.5" ry="6.5"></ellipse>
+                </g>
+                <g id="编组-10" transform="translate(89.494487, 83.000000)">
+                    <ellipse id="椭圆形" fill="#647293" cx="10" cy="6" rx="10" ry="6"></ellipse>
+                    <path d="M20,6 C20,9.3137085 15.5228475,12 10,12 C4.4771525,12 0,9.3137085 0,6 L0,6 Z" id="形状结合" fill="#3E485E"></path>
+                    <path d="M20,6 C20,6.34529289 19.890523,6.68036251 19.6846898,6.99996289 L0.315310228,6.99996289 C0.135286816,6.72043779 0.0289700689,6.42907966 0.00513809074,6.12939818 L0,6 L20,6 Z" id="形状结合" fill="#DAE5FF"></path>
+                </g>
+                <g id="编组-10" transform="translate(147.494487, 83.000000)">
+                    <ellipse id="椭圆形" fill="#647293" cx="10" cy="6" rx="10" ry="6"></ellipse>
+                    <path d="M20,6 C20,9.3137085 15.5228475,12 10,12 C4.4771525,12 0,9.3137085 0,6 L0,6 Z" id="形状结合" fill="#3E485E"></path>
+                    <path d="M20,6 C20,6.34529289 19.890523,6.68036251 19.6846898,6.99996289 L0.315310228,6.99996289 C0.135286816,6.72043779 0.0289700689,6.42907966 0.00513809074,6.12939818 L0,6 L20,6 Z" id="形状结合" fill="#DAE5FF"></path>
+                </g>
+                <ellipse id="椭圆形" fill="#0467BF" cx="128.5" cy="108.5" rx="17.5" ry="2.5"></ellipse>
+                <g id="编组" transform="translate(92.494487, 127.000000)" fill="#3E485E">
+                    <circle id="椭圆形" cx="5.00551309" cy="4.5" r="4.5"></circle>
+                    <circle id="椭圆形备份-2" cx="68.0055131" cy="4.5" r="4.5"></circle>
+                </g>
+                <polygon id="矩形" fill="#647293" points="51.4944869 118 214.494487 118 207.494487 128 44.4944869 128"></polygon>
+                <rect id="矩形" fill="#D8D8D8" x="44.4944869" y="128" width="163" height="10"></rect>
+                <polygon id="矩形" fill="#8C97B2" transform="translate(210.973498, 127.975724) scale(-1, 1) translate(-210.973498, -127.975724) " points="207.494487 117.951448 214.452508 128 214.452508 138 207.494487 127.951448"></polygon>
+                <path d="M61.704508,96.8318157 C48.3977378,99.6434121 42.5921975,103.120617 44.2878871,107.263429 C45.9835767,111.406242 64.3799589,115.33246 99.4770338,119.042082" id="路径-2" stroke="#0467BF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M175.704508,96.8318157 C162.397738,99.6434121 156.592197,103.120617 158.287887,107.263429 C159.983577,111.406242 178.379959,115.33246 213.477034,119.042082" id="路径-2备份" stroke="#0467BF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(185.738716, 107.936949) scale(-1, 1) translate(-185.738716, -107.936949) "></path>
+                <polygon id="路径-11" fill="#FF814E" points="3.29126057 131.38018 24.1806911 124.702372 26 114.5 -3.26758308e-18 121.800468"></polygon>
+                <polygon id="三角形" fill="#63D825" transform="translate(228.494487, 121.500000) rotate(-40.000000) translate(-228.494487, -121.500000) " points="228.494487 116 235.494487 127 221.494487 127"></polygon>
+                <polygon id="三角形备份" fill="#FF814E" transform="translate(104.994487, 25.500000) rotate(86.000000) translate(-104.994487, -25.500000) " points="104.994487 20 109.494487 31 100.494487 31"></polygon>
+                <polygon id="路径-14" fill="#FF814E" transform="translate(233.424811, 89.776456) rotate(-48.000000) translate(-233.424811, -89.776456) " points="229.470076 86.5961957 236.023661 87.8837163 228.924811 91.1470438 236.023661 94.776456 236.407201 93.4557051 232.357233 91.3945431 237.924811 88.569386 237.924811 86.5961957 230.392439 84.776456"></polygon>
+                <polygon id="路径-14备份-3" fill="#63D825" transform="translate(25.424811, 80.776456) rotate(-133.000000) translate(-25.424811, -80.776456) " points="21.4700763 77.5961957 28.0236613 78.8837163 20.9248114 82.1470438 28.0236613 85.776456 28.407201 84.4557051 24.3572332 82.3945431 29.9248114 79.569386 29.9248114 77.5961957 22.3924393 75.776456"></polygon>
+                <polygon id="路径-14备份" fill="#8C97B2" points="166.641817 2.36566162 175.37993 4.03943836 165.914797 8.28176407 175.37993 13 175.891316 11.2830238 170.491359 8.60351313 177.914797 4.93080898 177.914797 2.36566162 167.871634 7.21644966e-16"></polygon>
+                <polygon id="路径-14备份-2" fill="#8C97B2" points="141.247667 24.5493493 157.267541 27.7681507 139.914797 35.9264694 157.267541 45 158.205083 41.6981226 148.305161 36.5452176 161.914797 29.482325 161.914797 24.5493493 143.502332 20"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

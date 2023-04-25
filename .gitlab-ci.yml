@@ -1,0 +1,21 @@
+stages:
+  - triggers
+
+
+
+trigger_jiaolun_pda:
+  stage: triggers
+  trigger:
+    include: 
+      - project: 'business-platform/legions-gitlab-ci-script'
+        ref: 'master'
+        file: 'legions-react-native/gitlab-ci/modules/.gitlab-ci.yml'
+  only:
+    refs:
+      - develop
+      - test
+      - master
+    changes:
+      - src/**/*
+
+

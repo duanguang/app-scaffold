@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 5</title>
+    <defs>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="25.4780582%" y1="6.87348003%" x2="80.4780542%" y2="88.43375%" id="linearGradient-2">
+            <stop stop-color="#00A2E6" offset="0%"></stop>
+            <stop stop-color="#017EFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M31.7171127,30.1742633 L39.8962772,32.3658638 L39.1733828,35.0637426 L30.9942182,32.8721421 L31.7171127,30.1742633 Z M27.9275894,13.2945324 C27.9757205,13.4588677 28.0001555,13.6292303 28.0001555,13.800469 L28.0001555,32.9948483 C28.0001555,33.9889609 27.194268,34.7948483 26.2001555,34.7948483 C26.0289139,34.7948483 25.8585485,34.7704125 25.6942106,34.7222799 L13.1656287,31.0528022 L9.90015546,31.0533664 C9.44133431,31.0535892 9.0626444,30.710329 9.00703178,30.2665702 L9.00015547,30.1535219 L9.00015547,30.1535219 L9.00015547,16.6418073 C9.00031081,16.1448117 9.40315988,15.7418931 9.90015546,15.741652 L13.1702818,15.7410876 L25.6942188,12.0730351 C26.6482543,11.793614 27.6481683,12.3404969 27.9275894,13.2945324 Z M39.6790948,22.8433291 L39.6790948,25.6363788 L31.2114006,25.6363788 L31.2114006,22.8433291 L39.6790948,22.8433291 Z M39.1733828,13.4159652 L39.8962772,16.113844 L31.7171127,18.3054445 L30.9942182,15.6075657 L39.1733828,13.4159652 Z" id="path-3"></path>
+        <filter x="-16.2%" y="-21.7%" width="145.3%" height="160.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0558889303   0 0 0 0 0.298015873   0 0 0 0 0.481459466  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="木林森PDA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="配送作业" transform="translate(-393.000000, -214.000000)">
+            <g id="编组-5" transform="translate(394.000000, 215.000000)">
+                <rect id="矩形" fill="#0E77E4" opacity="0.400000006" filter="url(#filter-1)" x="3" y="3" width="48" height="48" rx="4"></rect>
+                <rect id="矩形" stroke-opacity="0.499344406" stroke="#FFFFFF" fill="url(#linearGradient-2)" x="0" y="0" width="48" height="48" rx="4"></rect>
+                <g id="形状结合">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

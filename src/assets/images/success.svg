@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="269px" height="148px" viewBox="0 0 269 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>叫料成功</title>
+    <defs>
+        <path d="M144,2.27373675e-13 L144,62 L143.707555,62.0009099 C143.901119,62.1652953 144,62.3317656 144,62.5 C144,65.5375661 111.764502,68 72,68 C32.235498,68 0,65.5375661 0,62.5 C0,62.3317656 0.0988809596,62.1652953 0.292445496,62.0009099 L0,62 L0,2.27373675e-13 L144,2.27373675e-13 Z" id="path-1"></path>
+        <filter x="-85.7%" y="-44.1%" width="271.4%" height="188.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-85.7%" y="-44.1%" width="271.4%" height="188.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <ellipse id="path-5" cx="72" cy="5.5" rx="72" ry="5.5"></ellipse>
+        <filter x="-11.3%" y="-115.4%" width="122.6%" height="330.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M7.1997677,6.01395758 C7.35598762,4.75411181 8.49557474,3.86049159 9.74510677,4.01800098 C10.9946388,4.17551036 11.8809434,5.32450373 11.7247234,6.58434951 C7.99069044,36.6977017 20.106991,59.6070983 48.3468921,75.6993013 C49.4431771,76.3240074 49.8296131,77.7264819 49.2100211,78.8318157 C48.5904291,79.9371495 47.199436,80.3267752 46.1031511,79.702069 C16.2897292,62.7132123 3.23084565,38.0215878 7.1997677,6.01395758 Z" id="path-8"></path>
+        <filter x="-166.7%" y="-56.6%" width="433.3%" height="213.2%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M1.20488697,2.01395758 C1.36473992,0.754111806 2.53082906,-0.139508405 3.80941997,0.0180009755 C5.08801088,0.175510356 5.99492719,1.32450373 5.83507424,2.58434951 C2.01420327,32.6977017 14.4122782,55.6070983 43.3089213,71.6993013 C44.4307012,72.3240074 44.8261241,73.7264819 44.192123,74.8318157 C43.5581219,75.9371495 42.1347802,76.3267752 41.0130002,75.702069 C10.5062429,58.7132123 -2.85633559,34.0215878 1.20488697,2.01395758 Z" id="path-11"></path>
+        <filter x="-166.7%" y="-56.6%" width="433.3%" height="213.2%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="木林森PDA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="备料成功" transform="translate(-219.000000, -294.000000)">
+            <g id="叫料成功" transform="translate(219.505513, 294.000000)">
+                <g id="编组-5" transform="translate(12.494487, 17.000000)">
+                    <g id="编组-4" transform="translate(44.000000, 41.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="形状结合" fill="#BFD3E5" xlink:href="#path-1"></use>
+                        <polygon id="路径-10" fill="#7CA7CD" filter="url(#filter-3)" mask="url(#mask-2)" points="144.077295 5 118.505513 73 153.505513 67.0869565"></polygon>
+                        <polygon id="路径-10备份" fill="#9BBEDE" filter="url(#filter-4)" mask="url(#mask-2)" transform="translate(11.005513, 39.000000) scale(-1, 1) translate(-11.005513, -39.000000) " points="19.0772952 5 -6.49448691 73 28.5055131 67.0869565"></polygon>
+                    </g>
+                    <g id="编组-9" transform="translate(44.000000, 36.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="椭圆形" fill="#345397" xlink:href="#path-5"></use>
+                        <ellipse id="椭圆形" fill="#0467BF" mask="url(#mask-6)" cx="72.5" cy="5.5" rx="63.5" ry="4.5"></ellipse>
+                        <ellipse id="椭圆形" fill="#0A7FE7" filter="url(#filter-7)" mask="url(#mask-6)" cx="60.5" cy="0.5" rx="66.5" ry="6.5"></ellipse>
+                    </g>
+                    <circle id="椭圆形" fill="#3E485E" cx="87" cy="71" r="8"></circle>
+                    <circle id="椭圆形" fill="#FFFFFF" cx="86" cy="69" r="2"></circle>
+                    <polyline id="路径-8" stroke="#3E485E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" points="150 66 140 71.2388954 150 76"></polyline>
+                    <path d="M133.494994,87.9995645 C133.501988,88.1656827 133.505513,88.3325097 133.505513,88.5 C133.505513,96.5081289 125.446639,103 115.505513,103 C105.564388,103 97.5055131,96.5081289 97.5055131,88.5 C97.5055131,88.3325097 97.5090384,88.1656827 97.5160324,87.9995645 Z" id="形状结合" fill="#0467BF"></path>
+                    <g id="编组" transform="translate(80.000000, 109.000000)" fill="#3E485E">
+                        <circle id="椭圆形" cx="5.00551309" cy="4.5" r="4.5"></circle>
+                        <circle id="椭圆形备份-2" cx="68.0055131" cy="4.5" r="4.5"></circle>
+                    </g>
+                    <g id="编组-8">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="路径-9" fill="#0467BF" fill-rule="nonzero" xlink:href="#path-8"></use>
+                        <ellipse id="椭圆形" fill="#3494E9" filter="url(#filter-10)" mask="url(#mask-9)" cx="9" cy="26.5" rx="9" ry="26.5"></ellipse>
+                    </g>
+                    <g id="编组-7" transform="translate(176.000000, 4.000000)">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="路径-9备份" fill="#0467BF" fill-rule="nonzero" transform="translate(22.000000, 38.000000) scale(-1, 1) translate(-22.000000, -38.000000) " xlink:href="#path-11"></use>
+                        <ellipse id="椭圆形" fill="#3494E9" filter="url(#filter-13)" mask="url(#mask-12)" cx="41" cy="22.5" rx="9" ry="26.5"></ellipse>
+                    </g>
+                    <ellipse id="椭圆形" fill="#D6E5F2" cx="113.5" cy="128" rx="66.5" ry="3"></ellipse>
+                </g>
+                <polygon id="路径-11" fill="#FF814E" points="3.29126057 130.38018 24.1806911 123.702372 26 113.5 -3.26758308e-18 120.800468"></polygon>
+                <polygon id="路径-11备份" fill="#FF814E" points="251.04587 68.8350953 267.91751 61.4640327 268 51.5 250 58.8004682"></polygon>
+                <polygon id="三角形" fill="#63D825" transform="translate(228.494487, 120.500000) rotate(-40.000000) translate(-228.494487, -120.500000) " points="228.494487 115 235.494487 126 221.494487 126"></polygon>
+                <polygon id="三角形备份" fill="#63D825" transform="translate(75.994487, 6.500000) rotate(169.000000) translate(-75.994487, -6.500000) " points="75.9944869 1 80.4944869 12 71.4944869 12"></polygon>
+                <polygon id="多边形" fill="#0467BF" points="48.4944869 133 54.200826 136.454915 52.0211984 142.045085 44.9677754 142.045085 42.7881478 136.454915"></polygon>
+                <polygon id="多边形备份" fill="#0467BF" transform="translate(194.494487, 40.000000) rotate(-67.000000) translate(-194.494487, -40.000000) " points="194.494487 35 200.200826 38.454915 198.021198 44.045085 190.967775 44.045085 188.788148 38.454915"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

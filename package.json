@@ -1,0 +1,82 @@
+{
+  "name": "app-scaffold",
+  "version": "2.1.45",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android --appIdSuffix=debug",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "build:demo": "cd ./android && ./gradlew assembleDemo",
+    "build:prod": "cd ./android && ./gradlew assembleRelease",
+    "clean": "cd ./android && ./gradlew clean",
+    "version:patch": "yarn version --patch",
+    "version:minor": "yarn version --minor",
+    "version:major": "yarn version --major"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-picker/picker": "^2.2.0",
+    "@react-navigation/native": "^6.0.5",
+    "@react-navigation/native-stack": "^6.5.0",
+    "dayjs": "^1.10.7",
+    "json-mapper-object": "0.0.9-rc1",
+    "mobx": "^6.3.3",
+    "mobx-react": "^7.2.0",
+    "mobx-react-lite": "^3.2.1",
+    "native-base": "^3.2.1",
+    "qs": "^6.10.1",
+    "react": "17.0.2",
+    "react-native": "^0.66.0",
+    "react-native-camera": "^4.2.1",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-drawer": "^2.5.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-pager-view": "^5.4.7",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-storage": "^1.0.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-swipe-list-view": "^3.2.9",
+    "react-native-tab-view": "^3.1.1",
+    "styled-components": "^5.3.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-decorators": "^7.15.8",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/qs": "^6.9.7",
+    "@types/react-native": "^0.65.0",
+    "@types/react-native-datepicker": "^1.7.1",
+    "@types/react-native-push-notification": "^7.3.3",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^5.0.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}

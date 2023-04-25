@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6备份</title>
+    <defs>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="9.69840618%" y1="6.19936289%" x2="90.9818087%" y2="99.6515274%" id="linearGradient-2">
+            <stop stop-color="#579FFF" offset="0%"></stop>
+            <stop stop-color="#2A85FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M23.1845801,0.366666652 L26.5395801,7.71833335 L26.5395801,26.0333333 L0.872913444,26.0333333 L0.872913444,7.81 L4.22791344,0.366666652 L23.1845801,0.366666652 Z M13.7062468,11.5316667 L8.60958014,16.665 L12.0195801,16.665 L12.0195801,21.7983333 L15.4112468,21.7983333 L15.4112468,16.665 L18.8029134,16.665 L13.7062468,11.5316667 Z M21.0395801,2.54833335 L6.37291344,2.54833335 L4.08124679,7.7 L23.3312468,7.7 L21.0395801,2.54833335 Z" id="path-3"></path>
+        <filter x="-27.3%" y="-19.5%" width="154.5%" height="154.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.17654546   0 0 0 0 0.463017818   0 0 0 0 0.851024683  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="木林森PDA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="配送作业" transform="translate(-393.000000, -652.000000)">
+            <g id="编组-6备份" transform="translate(394.000000, 653.000000)">
+                <rect id="矩形" fill="#3C81DE" opacity="0.300000012" filter="url(#filter-1)" x="3" y="3" width="48" height="48" rx="4"></rect>
+                <rect id="矩形" stroke-opacity="0.500437063" stroke="#FFFFFF" fill="url(#linearGradient-2)" x="0" y="0" width="48" height="48" rx="4"></rect>
+                <g id="编组-8" transform="translate(10.289776, 10.800000)" fill-rule="nonzero">
+                    <g id="形状结合">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
