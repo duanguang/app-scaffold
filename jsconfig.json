@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@/*": [
+          "src/*"
+        ],
+        "@typing/*":["./typings/*"]
+      },
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }

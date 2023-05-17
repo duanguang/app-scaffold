@@ -210,7 +210,7 @@ android {
                         defaultConfig.versionCode * 1000 + versionCodes.get(abi)
             }
             // 设置打包后的文件名
-            def fileName = "pda_scan_${versionMajor}.${versionMinor}.${versionPatch}.apk"
+            def fileName = "legions_cicd_${versionMajor}.${versionMinor}.${versionPatch}.apk"
             output.outputFileName = fileName
 
         }

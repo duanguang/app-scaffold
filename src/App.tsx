@@ -14,22 +14,21 @@ import {Button, NativeBaseProvider, StatusBar} from 'native-base';
 import React, {useContext, useEffect, useMemo, useRef} from 'react';
 import {Text, useColorScheme, View} from 'react-native';
 import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {initHttpConfig} from './constants/httpConfig';
 import {GlboalStore} from './stores/globalStore';
 import {customizingTheme} from './theme';
 import {RootStackParamList} from '../typings/global';
 import {storage} from './utils/storage';
 import {screens} from './screen';
-import {MyLoading} from './components/hlLoading';
-import {observer} from 'mobx-react-lite';
+import {LegionsProLoading} from './components/LegionsProLoading';
+import { observer } from 'mobx-react-lite';
+import { navigationRef } from './utils/RootNavigation';
 
 export interface AppProps {
-    isDebug: boolean;
-    buildType: string;
-    rootTag: string;
+    isDebug?: boolean;
+    buildType?: string;
+    rootTag?: string;
 }
-
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const config = {
     animation: 'spring',
@@ -60,7 +59,8 @@ const App = (props: AppProps) => {
     useEffect(() => {
         storage.save({key: 'ignoreUpdate', data: false});
         store.initApp(props);
-        initHttpConfig(props.buildType);
+        console.log(props.buildType,'props.buildType')
+        initHttpConfig(props.buildType||'');
     });
     const lodingRef = useRef<any>();
     return (
@@ -69,7 +69,7 @@ const App = (props: AppProps) => {
             pointerEvents={store.touchAble ? 'auto' : 'none'}>
             {useMemo(() => {
                 return (
-                    <MyLoading
+                    <LegionsProLoading
                         ref={ref => {
                             lodingRef.current = ref;
                             loadingUtils.ref = ref;
@@ -84,8 +84,9 @@ const App = (props: AppProps) => {
                     translucent
                 />
                 <NativeBaseProvider theme={customizingTheme}>
-                    <NavigationContainer>
+                    <NavigationContainer  ref={navigationRef}>
                         <Stack.Navigator
+                            initialRouteName='Home'
                             screenOptions={
                                 {
                                 }

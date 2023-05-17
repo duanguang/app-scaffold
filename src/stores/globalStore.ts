@@ -1,6 +1,7 @@
-import {action, makeAutoObservable, observable} from 'mobx';
+import {action, computed, makeAutoObservable, observable} from 'mobx';
 import React from 'react';
 import {AppProps} from '../App';
+
 
 class store {
     constructor() {
@@ -10,7 +11,6 @@ class store {
     isDebug: boolean = true;
     /** 当前环境类型 */
     buildType: string = 'debug';
-
     initApp(pramas: Partial<AppProps>) {
         this.isDebug = pramas.isDebug!;
         this.buildType = pramas.buildType!;
